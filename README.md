@@ -1,1 +1,1 @@
-# [amanssh.github.io](https://amancodeblast.github.io)
+# [amancodeblast.github.io](https://amancodeblast.github.io)
