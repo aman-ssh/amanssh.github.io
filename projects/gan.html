@@ -43,18 +43,23 @@
 
           <div class="col-lg-12 portfolio-info">
             <br>
-            <h2 style="color:#12d640">Image Generator</h2>
+            <h2 style="color:#12d640">Drowsiness Detection of Driver using OpenCV</h2>
             <ul>
-              <li><strong>Tech Stack</strong>: Tensorflow, Python, numpy, keras, pandas</li>
-              <li><strong>Github URL</strong>: <a href="https://github.com/rajaprerak/Generative_Model" target="_blank">Project Link</a></li>
-            </ul>
+                <li><strong>Tech Stack</strong>: Python, Dlib, OpenCV</li>
+                <li><strong>Github URL</strong>: <a href="https://github.com/amancodeblast/Drowsiness-Detection-OpenCV-" target="_blank">Project Link</a></li>
+              </ul>
+  
+                <p>
+                We first will be knowing how to detect eye blinks in video streams using facial landmarks and then, we will be performing Drowsiness Detection inside the car in order to alert the Driver.
 
-            <p>
-              Developed an image generator based on Generative Adversarial Network (GAN) which aims at generating a set of realistic images (fake images which look like real) from a real dataset.            
-            </p>
-            <p>
-              The developed system was tested on a human-face database and loss was calculated by comparing the PCAs of generated and the original image.            
-            </p>
+                </p>
+                <p><ul>
+                <li>Eye Aspect Ratio threshold has its value near 0.3 and the no. of consecutive frames after which the alarm is blown are kept 45-50.</li>
+                <li><strong>--shape-predictor </strong>: This is the path to dlib’s pre-trained facial landmark detector ( is included in the repository)</li>
+                <li><strong>--alarm </strong>: Here you can optionally specify the path to an input audio file to be used as an alarm.</li>
+                <li><strong>--webcam </strong>: This integer controls the index of your built-in webcam/USB camera.</li>
+              </ul>
+                </p>
           </div>
 
         </div>
